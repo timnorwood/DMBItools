@@ -3,7 +3,7 @@ Type: Package
 Title: Various useful functions used by DMBI
 Version: 0.1.0
 Author: Tim Norwood
-Maintainer: tim.norwood@nhs.scot
+Maintainer: Tim Norwood <tim.norwood@nhs.scot>
 Description: Various useful functions used by DMBI including calculation of pascal triangle.
     We use pascal triangle to calculate the probability of multiple events with whne the 
     probability of each event is known, and can be expressed as an odds ratio.
