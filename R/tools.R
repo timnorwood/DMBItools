@@ -26,6 +26,6 @@
 
 pascal_row <- function(r, odds_ratio = 1) {
   row <- 1
-  for (i in 1:r-1) { row <- c(0, row + (odds_ratio-1)) + c(row, 0)}
+  for (i in 1:r-1) { row <- c(0, row * (odds_ratio-1)) + c(row, 0)}
   row
 }
